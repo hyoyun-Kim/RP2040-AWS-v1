@@ -107,7 +107,7 @@ Link
 
 [link-tera_term]: https://osdn.net/projects/ttssh2/releases/
 [link-raspberry_pi_pico_usb_mass_storage]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/tree/main/static/images/AWS_IoT_HTTP/raspberry_pi_pico_usb_mass_storage.png
-[link-connect_to_serial_com_port]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/main/static/images/AWS_IoT_HTTP/connect_to_serial_com_port.png
-[link-server_ip_ciphersuite]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/main/static/images/AWS_IoT_HTTP/server_ip_ciphersuite.png
-[link-http_body_information]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/main/static/images/AWS_IoT_HTTP/http_body_information.png
+[link-connect_to_serial_com_port]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/tree/main/static/images/AWS_IoT_HTTP/serial_com_port.png
+[link-server_ip_ciphersuite]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/tree/main/static/images/AWS_IoT_HTTP/server_ip_ciphersuite.png
+[link-http_body_information]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/tree/main/static/images/AWS_IoT_HTTP/http_body_information.png
 
