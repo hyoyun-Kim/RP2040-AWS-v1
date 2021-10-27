@@ -96,7 +96,7 @@ Input an https or http address in this macro.
 
 
 
-5. If the AWS_IoT_HTTP example works normally on Raspberry Pi Pico, you can see the wiznet.io server IP and cipher suite.
+5. If the AWS_IoT_HTTP example works normally on Raspberry Pi Pico, you can see the **wiznet.io server IP** and **cipher suite**.
 
 ![][link-server_ip_ciphersuite]
 
