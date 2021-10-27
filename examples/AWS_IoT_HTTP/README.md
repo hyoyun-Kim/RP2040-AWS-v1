@@ -1,9 +1,9 @@
-# How to Test AWS_IoT_HTTP Example
+# How to Test AWS IoT HTTP Example
 
 
 ## Step 1: Prepare software
 
-The following serial terminal program is required for loopback test, download and install from below links.
+The following serial terminal program is required for AWS IoT HTTP test, download and install from below links.
 
 - [**Tera Term**][link-tera_term]
 
@@ -19,9 +19,9 @@ The following serial terminal program is required for loopback test, download an
 
 If you are W5100S-EVB-Pico, you can skip '1. Combine...'
 
-## Step 3: Setup AWS_IoT_HTTP Example
+## Step 3: Setup AWS IoT HTTP Example
 
-To test the loopback example, minor settings shall be done in code.
+To test the AWS IoT HTTP example, minor settings shall be done in code.
 
 1. Set SPI port and pin.
 
@@ -38,7 +38,7 @@ Set the SPI interface you use.
 #define PIN_RST 20
 ```
 
-If you want to test with the AWS_IoT_HTTP example using SPI DMA, uncommnet USE_SPI_DMA.
+If you want to test with the AWS IoT HTTP example using SPI DMA, uncommnet USE_SPI_DMA.
 
 ```cpp
 /* Use SPI DMA */
@@ -70,11 +70,34 @@ Input an https or http address in this macro.
 #define HTTP_GET_URL   "https: //www.wiznet.io/"
 ```
 
+4. Set-up device certificate and key.
+
+If you want to change root certificate, client certificate and private key, you need to change the below sections.
+
+Device certificate and key can be set in http_certificate.h in "RP2040-HAT-AWS-C/Interface/" directory.
+
+```
+uint8_t http_root_ca[] = \
+"-----BEGIN CERTIFICATE-----\r\n"
+"...."
+"-----END CERTIFICATE-----\r\n\0";
+
+uint8_t http_client_cert[] = \
+"-----BEGIN CERTIFICATE-----\r\n"
+"..."
+"-----END CERTIFICATE-----\r\n\0";
+
+uint8_t http_private_key[] = \
+"-----BEGIN RSA PRIVATE KEY-----\r\n"
+"..."
+"-----END RSA PRIVATE KEY-----\r\n\0";
+```
+
 
 
 ## Step 4: Build
 
-1. After completing the loopback example configuration, click 'build' in the status bar at the bottom of Visual Studio Code or press the 'F7' button on the keyboard to build.
+1. After completing the AWS IoT HTTP example configuration, click 'build' in the status bar at the bottom of Visual Studio Code or press the 'F7' button on the keyboard to build.
 
 2. When the build is completed, 'AWS_IoT_HTTP.uf2' is generated in 'RP2040-HAT-AWS-C/build/examples/AWS_IoT_HTTP.
 
