@@ -1,0 +1,2 @@
+add_subdirectory(AWS_IoT_HTTP)
+add_subdirectory(AWS_IoT_MQTT)
