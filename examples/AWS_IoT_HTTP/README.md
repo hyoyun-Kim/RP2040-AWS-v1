@@ -70,14 +70,6 @@ Input an https or http address in this macro.
 #define HTTP_GET_URL   "https: //www.wiznet.io/"
 ```
 
-4. asfasfd
-
-asfasfdasdfasdf
-
-```cpp
-http_get(SOCKET_HTTP, http_buf, HTTP_GET_URL, &https_tlsContext);
-```
-
 
 
 ## Step 4: Build
@@ -114,8 +106,8 @@ Link
 -->
 
 [link-tera_term]: https://osdn.net/projects/ttssh2/releases/
-[link-raspberry_pi_pico_usb_mass_storage]: https://github.com/Wiznet-OpenHardware/RP2040-HAT-AWS-C/tree/main/static/images/AWS_IoT_HTTP/raspberry_pi_pico_usb_mass_storage.png
-[link--connect_to_serial_com_port]: https://github.com/Wiznet-OpenHardware/RP2040-HAT-AWS-C/tree/main/static/images/AWS_IoT_HTTP/connect_to_serial_com_port.png
-[link-server_ip_ciphersuite]: https://github.com/Wiznet-OpenHardware/RP2040-HAT-AWS-C/tree/main/static/images/AWS_IoT_HTTP/server_ip_ciphersuite.png
-[link-http_body_information]: https://github.com/Wiznet-OpenHardware/RP2040-HAT-AWS-C/tree/main/static/images/AWS_IoT_HTTP/http_body_information.png
+[link-raspberry_pi_pico_usb_mass_storage]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/tree/main/static/images/AWS_IoT_HTTP/raspberry_pi_pico_usb_mass_storage.png
+[link--connect_to_serial_com_port]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/tree/main/static/images/AWS_IoT_HTTP/connect_to_serial_com_port.png
+[link-server_ip_ciphersuite]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/tree/main/static/images/AWS_IoT_HTTP/server_ip_ciphersuite.png
+[link-http_body_information]: https://github.com/hyoyun-Kim/RP2040-AWS-v1/tree/main/static/images/AWS_IoT_HTTP/http_body_information.png
 
